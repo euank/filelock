@@ -12,9 +12,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-// Package lock implements simple locking primitives on a
+// Package filelock implements simple locking primitives on a
 // regular file or directory using flock
-package lock
+package filelock
 
 import (
 	"errors"
